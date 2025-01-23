@@ -1,7 +1,13 @@
-import React from "react";
+import { AppBar, Toolbar } from '@mui/material';
+import React from 'react'
 
 const Header = () => {
-    return <div>Header</div>;
+    return (
+        <AppBar sx={{}}>
+            <Toolbar></Toolbar>
+        </AppBar>
+
+    );
 };
 
 export default Header;
